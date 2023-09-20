@@ -11,7 +11,7 @@ const smartLaunch = () => {
   // Authorize application
   FHIR.oauth2
     .init({
-      clientId: '52a346b2-7512-4084-934b-98eb44f7d6e7',
+      clientId: 'defbd422-1acc-44f1-9172-f7c7d023d9c2',
       scope: 'launch/patient openid profile patient/*.cruds'
     })
     .then(client => {
